@@ -133,12 +133,18 @@ REMOVE completely:
 - the puckering, padding bumps, dimples, creases, wrinkles and the shadows and highlights they create
 - uneven lighting and colour shifts caused by the fabric surface
 
-KEEP exactly as it is:
+KEEP:
 - the printed pattern, layout and composition, with every element in the same position, size and orientation
 - every illustration, character, object, outline, line, text and small detail, including fine linework and tiny motifs
-- the original print colours, matched accurately and evenly
+- the original art style (line weight, shading, texture and rendering style of the artwork)
+- the original print colours and palette, matched accurately and evenly
 
-Do not add, remove, redraw, simplify, restyle or recolour any part of the design, and do not crop or change the framing. The result should be perfectly flat and smooth, with crisp, sharp edges and solid, even colour fills.`;
+ENHANCE:
+- Where the pattern is blurry, soft, low-resolution or hidden by stitches, regenerate it in high definition so it looks like the sharp original artwork.
+- Add fine detail where it is missing, such as crisp outlines, small markings, texture inside illustrations and clean edges, but only detail that fits the existing design and its style.
+- Rebuild areas obscured by stitches or creases by continuing the surrounding pattern seamlessly.
+
+Do not change the subject matter, add new objects, characters or text, change the art style, introduce new colours or recolour anything, and do not crop or change the framing. The result should be perfectly flat and smooth, with crisp, sharp, high-definition detail in the original style and colours.`;
 
 /* ---------- settings ---------- */
 function store(k, v){ try{ localStorage.setItem('gptstudio.' + k, v); }catch(e){} }
